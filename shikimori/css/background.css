@@ -1,0 +1,38 @@
+/* Фоны
+ * shzqq 2025 (c)
+ */
+/* Фоны что меняются сами */ 
+body {
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Зима */
+body[data-server_time *= "-12-"],
+body[data-server_time *= "-02-"] {
+  background-image: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/winter.jpg");
+}
+/* Весна */
+body[data-server_time *= "-03-"],
+body[data-server_time *= "-06-"] {
+  background-image: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/spring.jpg");
+}
+/* Лето */
+body[data-server_time *= "-07-"],
+body[data-server_time *= "-09-"] {
+  background-image: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/summer.jpg");
+}
+/* Осень */
+body[data-server_time *= "-09-"],
+body[data-server_time *= "-11-"] {
+  background-image: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/autumm.jpg");
+}
+/* Днюха 7 Ноября */
+body[data-server_time *= "-11-07T"],
+body[data-server_time *= "-11-08T"] {
+  background: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/bd.jpg") center top / cover fixed;
+}
+/* НГ 31 Декабря */
+body[data-server_time *= "-12-31T"],
+body[data-server_time *= "-01-01T"] {
+  background: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/xmass.jpg") center top / cover fixed;
+}
