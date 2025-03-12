@@ -4,8 +4,5 @@
 
 /* Округление аватарок */
 .p-profiles .profile-head .c-brief .avatar>img {
-   border-radius: 50%;
-}
-/* Круглые графики списков аниме и манги в профиле */
-@import url("https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/CircleAnimeMangaBar.css");
+   border-radius: 25%;
 }
