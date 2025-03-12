@@ -2,6 +2,9 @@
  * shzqq 2025 (c)
  */
 
+/* Фиксированное боковое меню на телефонах */
+@import url("https://css-club.web.app/css/sidebar_modern.css");
+
 /* Закрепление верхнего меню */
 .l-top_menu-v2 {
   position: fixed;
