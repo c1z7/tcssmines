@@ -2,7 +2,10 @@
  * shzqq 2025 (c)
  */
 
-/* */
+/* Округление аватарок */
+.p-profiles .profile-head .c-brief .avatar>img {
+   border-radius: 25%;
+}
 
 /* Закрепление верхнего меню */
 .l-top_menu-v2 {
