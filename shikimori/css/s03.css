@@ -1,0 +1,24 @@
+/* Аватарки и т.д
+ * shzqq 2025 (c)
+ */
+/* Аватарки */
+.c-brief .avatar {
+  border-radius: 100%;
+}
+.submenu-triangle>img{
+  border-radius: 100%;
+}
+.p-profiles .profile-head .c-brief .avatar img {
+  border-radius: 100%;
+}
+.b-club .logo {
+  border-radius: 100%;
+}
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+  border-radius: 100%;
+}
+.b-comment > .inner header img {
+  border-radius: 100%;
+}
+/*--------------------------------------------*//*--------------------------------------------*/
+/*--------------------------------------------*//*--------------------------------------------*/
