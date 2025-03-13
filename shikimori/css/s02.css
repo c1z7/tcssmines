@@ -1,0 +1,26 @@
+/* Удаление элементов
+ * shzqq 2025 (c)
+ */
+
+/* Скрытие элементов */
+.l-footer .date {
+  display:none;
+}
+.l-footer .links {
+  display:none;
+}
+.l-footer .copyright {
+  display:none;
+}
+.b-feedback {
+  display:none;
+}
+.c-column.c-right{
+  display:none;
+}
+.l-top_menu-v2 .logo-container .logo {
+  display:none;
+}
+.glyph {
+  display:none;
+}
