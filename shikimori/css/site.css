@@ -1,0 +1,108 @@
+/* Изменения сайта
+ * shzqq 2025 (c)
+ */
+
+/* Верхнее меню (Тёмное, прозрачное) */
+.l-top_menu-v2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* Основная часть сайта */
+.l-page {
+  position: relative; 
+  margin-top: var(--top-menu-height);
+  min-width: 1543px;
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.44);
+  background: #000000cf;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* херня что я долго искал */
+.l-top_menu-v2 .menu-dropdown.main.active > span {
+  background: transparent;
+}
+.b-to-top .slide::before {
+  background: #00000080;
+  height: 100%;
+  width: 60px;
+}
+/* Стрелочка сабменю */
+.l-top_menu-v2 .menu-dropdown.active .submenu-triangle::after {
+  transform: rotate(180deg);
+  background: transparent;
+}
+/* Прозрачные кнопки сабменю */
+.l-top_menu-v2 .active .submenu {
+  background: #00000080;
+}
+/* Прозрачное сабменю */
+.l-top_menu-v2 .menu-dropdown > span {
+  background: transparent;
+}
+.l-top_menu-v2 .global-search .search-results {
+    max-width: 800px;
+    min-width: 0px;
+    left: 0px;
+  }
+}
+.b-comments-notifier {
+  top: var(--top-menu-height) !important;
+}
+.l-footer:after {
+  content:"*made by shzqq*";
+}
+.logo-container:after {
+  content:"SHZQQ TEST";
+}
+/* Цвета кнопок */
+.b-comment {
+  color: #ccc;
+}
+/* Цвет текста на сайте */
+body {
+  color: #ccc;
+}
+
+/* Цвет ссылок в текстах */
+.b-link {
+  color: ccc;
+}
+/* Цвет текста в подзаголовках */
+.subheadline {
+  color: #ccc;
+  background: 0%;
+}
+/* Цвет ссылок в подзаголовках */
+.subheadline > a {
+  color: #ccc;
+}
+header.head .notice {
+  color: #ccc;
+}
+.p-profiles .profile-head .c-brief header h1.aliases::after {
+  display: none;
+}
+.b-stats_bar .stat_names .stat_name a {
+  color: #ccc;
+}
+.p-profiles .profile-head .c-brief header h1 {
+  color: #ccc;
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.44);
+}
+.profile-actions .ban {
+  color: #ccc;
+}
+.profile-actions .settings {
+  color: #ccc;
+}
+.profile-actions .mail {
+  color: #ccc;
+}
+html[data-color-mode=light] {
+  --link-color: #a60000;
+  --link-hover-color: #ccc;
+  --link-active-color: #ccc;
+}
