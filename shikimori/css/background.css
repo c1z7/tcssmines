@@ -8,21 +8,25 @@ body {
 }
 /* Зима */
 body[data-server_time *= "-12-"],
+body[data-server_time *= "-01-"],
 body[data-server_time *= "-02-"] {
   background-image: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/winter.jpg");
 }
 /* Весна */
 body[data-server_time *= "-03-"],
+body[data-server_time *= "-04-"],
 body[data-server_time *= "-06-"] {
   background-image: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/spring.jpg");
 }
 /* Лето */
 body[data-server_time *= "-07-"],
+body[data-server_time *= "-08-"],
 body[data-server_time *= "-09-"] {
   background-image: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/summer.jpg");
 }
 /* Осень */
 body[data-server_time *= "-09-"],
+body[data-server_time *= "-10-"],
 body[data-server_time *= "-11-"] {
   background-image: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/autumm.jpg");
 }
