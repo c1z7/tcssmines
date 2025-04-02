@@ -40,3 +40,4 @@ body[data-server_time *= "-12-31T"],
 body[data-server_time *= "-01-01T"] {
   background: url("https://raw.githubusercontent.com/c1z7/tcssmines/refs/heads/master/shikimori/img/background/xmass.jpg") center top / cover fixed;
 }
+
